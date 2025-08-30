@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Navbar } from "./components"
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world! 15
-    </h1>
+    <div className="min-h-screen">
+      <div className="gredient-bg-welcome">
+        <Navbar/>
+      </div>
     </div>
   )
 }
