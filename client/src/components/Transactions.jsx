@@ -47,7 +47,7 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
   );
 };
 
-const Transaction = () => {
+const Transactions = () => {
   const { transactions, currentAccount } = useContext(TransactionContext);
 
   return (
@@ -73,4 +73,4 @@ const Transaction = () => {
   );
 };
 
-export default Transaction;
+export default Transactions;
